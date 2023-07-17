@@ -41,7 +41,7 @@ pyinstaller -Fw main.py
 
 生成的文件一般在`dist`文件夹下
 
-## 自动执行
+## 设置自动执行
 
 [windows 设置开机启动](https://support.microsoft.com/zh-cn/windows/%E5%9C%A8-windows-10-%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%9C%A8%E5%90%AF%E5%8A%A8%E6%97%B6%E8%87%AA%E5%8A%A8%E8%BF%90%E8%A1%8C%E7%9A%84%E5%BA%94%E7%94%A8-150da165-dcd9-7230-517b-cf3c295d89dd)
 

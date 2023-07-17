@@ -49,5 +49,5 @@ pyinstaller -Fw main.py
 
 [Ubuntu 设置开机任务](https://zhuanlan.zhihu.com/p/496990810)
 
-[Ubuntu 设置定时任务]([https://zhuanlan.zhihu.com/p/496990810](https://zhuanlan.zhihu.com/p/350671948)https://zhuanlan.zhihu.com/p/350671948)
+[Ubuntu 设置定时任务](https://zhuanlan.zhihu.com/p/350671948)
 

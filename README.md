@@ -23,7 +23,7 @@ source ./test_env/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-配置 `WebDriver`
+配置 WebDriver
 
 [Edge用户](https://learn.microsoft.com/zh-cn/microsoft-edge/webdriver-chromium/?tabs=c-sharp)
 

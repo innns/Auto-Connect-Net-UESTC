@@ -23,6 +23,16 @@ source ./test_env/bin/activate
 python -m pip install -r requirements.txt
 ```
 
+配置 `WebDriver`
+
+[Edge用户](https://learn.microsoft.com/zh-cn/microsoft-edge/webdriver-chromium/?tabs=c-sharp)
+
+[Firefox用户](https://github.com/mozilla/geckodriver)
+
+[Chrome用户](https://chromedriver.chromium.org/)
+
+**注意更改代码处的Driver路劲、所选的浏览器。建议使用 Edge**
+
 ## 0x01 设置学号、密码
 
 更改`main.py`中的`SCHOOLID`，`PASSWD`为自己的学号密码

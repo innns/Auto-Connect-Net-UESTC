@@ -23,9 +23,9 @@ source ./test_env/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-配置 WebDriver
+配置 WebDriver，需要选择对应版本的 WebDriver
 
-[Edge用户](https://learn.microsoft.com/zh-cn/microsoft-edge/webdriver-chromium/?tabs=c-sharp)
+[Edge用户](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/)
 
 [Firefox用户](https://github.com/mozilla/geckodriver)
 

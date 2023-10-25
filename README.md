@@ -27,6 +27,12 @@ python -m pip install -r requirements.txt
 
 [Edge用户](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/)
 
+![Windows](image.png)
+
+Windows 下，可以通过打开这个选项直接获取 Edge 的 WebDriver
+
+缺点是需要联网运行才会更新/下载
+
 [Firefox用户](https://github.com/mozilla/geckodriver)
 
 [Chrome用户](https://chromedriver.chromium.org/)

@@ -24,14 +24,14 @@ DRIVER_PATH = "C:\\Data\\chromedriver.exe"
 
 def isConnectedNet():
     # if os.name == 'nt':
-    #     return os.system("ping baidu.com -n 1 -w 1")
+    #     return not os.system("ping baidu.com -n 1 -w 1")
     # else:
-    #     return os.system("ping baidu.com -w 1")
+    #     return not os.system("ping baidu.com -w 1")
 
     # TUN MOD会劫持ping命令，现在使用curl命令代替ping判断是否连接
     # 不用TUN MOD的话，用上面的命令更节约资源
     myre = re.compile(
-        '^(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|[1-9])\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)$')
+        r'^(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|[1-9])\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)$')
     try:
         _ip = os.popen("curl 4.ipw.cn").readline().strip()
         print(_ip)

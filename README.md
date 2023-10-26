@@ -27,17 +27,11 @@ python -m pip install -r requirements.txt
 
 [Edge用户](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/)
 
-![Windows](image.png)
-
-Windows 下，可以通过打开这个选项直接获取 Edge 的 WebDriver
-
-缺点是需要联网运行才会更新/下载
-
 [Firefox用户](https://github.com/mozilla/geckodriver)
 
 [Chrome用户](https://chromedriver.chromium.org/)
 
-**注意更改代码处的Driver路劲、所选的浏览器。建议使用 Edge**
+**注意更改代码处的Driver 所选的浏览器。建议使用一个不常用的浏览器（不去手动更新他），常用的浏览器版本更新后可能需要更新新版Driver才能使用**
 
 ## 0x01 设置学号、密码
 

@@ -1,6 +1,10 @@
 # Auto-Connect-Net-UESTC
 电子科技大学自动连接校园网脚本，使用了Selenium 4，支持Ubuntu 和 Windows
 
+更加推荐[解析登录页面不使用无头浏览器的方法](https://github.com/b71db892/AutoLoginUESTC)
+
+之前是配置没改完，以为上面的不能用，才写的这个仓库...
+
 # 使用方法
 
 ## 0x00 配置环境
